@@ -1,6 +1,9 @@
 temp = float(input("Введите температуру: "))
-if temp <= 15.5:
+while temp <= 15.5:
     print("ХОЛОДНО")
-elif temp >= 28.8:
+    temp = float(input("Введите температуру: "))
+while temp >= 28:
     print("ЖАРКО")
+    temp = float(input("Введите температуру: "))
 else: print("НОРМАЛЬНО")
+
